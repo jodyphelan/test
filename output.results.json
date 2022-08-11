@@ -537,6 +537,32 @@
       "gene_associated_drugs": [
         "streptomycin"
       ]
+    },
+    {
+      "chrom": "Chromosome",
+      "genome_pos": 761155,
+      "ref": "C",
+      "alt": "T",
+      "freq": 1,
+      "feature_id": "CCP43410",
+      "type": "missense_variant",
+      "nucleotide_change": "c.1349C>T",
+      "protein_change": "p.Ser450Leu",
+      "annotation": [],
+      "alternate_consequences": [],
+      "change": "p.Ser450Leu",
+      "locus_tag": "Rv0667",
+      "gene": "rpoB",
+      "drugs": [
+        {
+          "type": "drug",
+          "drug": "rifampicin",
+          "confidence": "1",
+          "confers": "resistance",
+          "literature": "https://www.who.int/publications/i/item/9789240028173"
+        }
+      ],
+      "non-associated-drug": "rifabutin"
     }
   ],
   "drtype": "MDR-TB",
