@@ -1,6 +1,6 @@
 # Test
 
-This repo shows how to convert the output from tb-profiler to represent variants which are associated with resistance for one drug but not for others for which the gene is associated. The default output only represents each variant once in either the "dr_variants" or the "other_variants". This `tbprofiler_convert_output.py` script will add extra entries into the "other_variants" list.
+This repository shows how to convert the output from tb-profiler to represent variants which are associated with resistance for one drug but not for others for which the gene is associated. The default output only represents each variant once in either the "dr_variants" or the "other_variants". This `tbprofiler_convert_output.py` script will add extra entries into the "other_variants" list.
 
 The repo uses a modified database which has rpoB/rifabutin added to the watchlist.
 
